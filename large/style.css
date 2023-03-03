@@ -1,0 +1,21 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 10px;
+}
+.wrapper>img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width:400px) and (max-width:799px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+@media screen and (min-width:800px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+    }
+}
