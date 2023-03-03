@@ -1,6 +1,9 @@
+
 #wrapper{
     display: grid;
     max-width: 800px;
+    width: auto;
+    margin: auto;
 }
 #head{
     display: flex;
